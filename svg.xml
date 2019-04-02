@@ -1,0 +1,51 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="800px" height="600px"
+viewBox="0 0 800 600"
+preserveAspectRatio="xMidYMid">
+<rect x="0" y="0"
+width="800" height="600" stroke="none" fill="none" />
+
+<defs>
+
+   <g id="shape">
+
+      <g transform= "rotate (0)">
+
+         <animateTransform attributeName = "transform" type = "rotate" from = "0,367,355" to = "360,367,355" dur = "5s" repeatCount="indefinite" />
+
+         <g transform= "rotate (0)">
+
+            <animateTransform attributeName = "transform" type = "rotate" from = "0,283,321" to = "360,283,321" dur = "4s" repeatCount="indefinite" />
+
+            <polygon points="321.8376726970421,330.5726265715023 312.94042992684405,347.5249063296318 297.1841954817014,358.4006497074166 278.1785327897871,360.70835496392215 260.27741013075376,353.91935463574623 247.58175897387162,339.58892688175075 243,321 247.58175897387162,302.41107311824925 260.27741013075376,288.08064536425377 278.1785327897871,281.29164503607785 297.1841954817014,283.5993502925834 312.94042992684405,294.4750936703682 321.8376726970421,311.4273734284977" stroke-width="2" stroke="black" fill="red"/>
+
+         </g>
+
+         <g transform= "rotate (0)">
+
+            <animateTransform attributeName = "transform" type = "rotate" from = "0,463,391" to = "360,463,391" dur = "4s" repeatCount="indefinite" />
+
+            <polygon points="321.8376726970421,330.5726265715023 312.94042992684405,347.5249063296318 297.1841954817014,358.4006497074166 278.1785327897871,360.70835496392215 260.27741013075376,353.91935463574623 247.58175897387162,339.58892688175075 243,321 247.58175897387162,302.41107311824925 260.27741013075376,288.08064536425377 278.1785327897871,281.29164503607785 297.1841954817014,283.5993502925834 312.94042992684405,294.4750936703682 321.8376726970421,311.4273734284977" stroke-width="2" stroke="black" fill="red" transform= "translate (180,70)"/>
+
+         </g>
+
+          <rect x="380" y="182" width="200" height="20" transform = "rotate (22)" fill="#333" stroke="#f4f4f4" stroke-width="2" />
+
+      </g>
+
+      <polygon points="365,355 335,570 395,570" fill="black" stroke="#f4f4f4" stroke-width="2"/>
+
+   </g>
+
+</defs>
+
+
+
+<use xlink:href = "#shape" />
+<use xlink:href = "#shape" transform=" translate (-150,-145) scale(0.7,0.7)" />
+<use xlink:href = "#shape" transform=" translate (450,-80) scale(0.5,0.5)"/>
+
+
+</svg>
